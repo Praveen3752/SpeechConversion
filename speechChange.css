@@ -1,7 +1,20 @@
 
 html
 {
-	background:yellowgreen;
+	background:#464646;
+}
+
+html:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(./robot.jpg);
+    background-size: cover;
+    opacity: 0.1;
 }
 
 #spokenText
@@ -12,10 +25,9 @@ html
     width: 30%;
     margin: auto;
     margin-top: 5%;
-    box-shadow: 1px 1px 1px 1px green;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 63%);
     border-radius: 4px;
-    background: #b4976d;
-    color: greenyellow;
+    color: #FFC107;
 }
 
 
@@ -25,8 +37,8 @@ html
     height: 50px;
     cursor: pointer;
     border-radius: 5px;
-    color: white;
-    box-shadow: 1px 1px 1px 1px green;
+    color: #FFC107;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 63%) 	;
     margin: auto;
     display: flex;
     align-items: center;
@@ -40,11 +52,11 @@ html
 	height: 10px;
 	padding: 12%;
 	text-align:center;
-	color:white;
+	color:#FFC107;
     margin: auto;
     border-radius: 50%;
     margin-top: 6%;
-    box-shadow: 3px 3px 18px 4px green;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 97%);
 	animation-name : boom;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
